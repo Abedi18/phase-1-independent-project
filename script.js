@@ -51,3 +51,5 @@ let getWeather = () => {
       });
   }
 };
+searchBtn.addEventListener("click", getWeather);
+window.addEventListener("load", getWeather);
