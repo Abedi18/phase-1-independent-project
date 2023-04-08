@@ -15,4 +15,6 @@ let getWeather = () => {
       let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityValue}&appid=${key}&units=metric`;
       //Clear the input field
       cityRef.value = "";
-    }
+      // Fetch the data from the API
+      fetch(url)
+      .then((resp) => resp.json())
