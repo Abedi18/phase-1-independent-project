@@ -36,3 +36,16 @@ body {
     box-shadow: 0 1.8em 3.7em var(--shadow);
     text-align: center;
   }
+  .shape {
+    position: absolute;
+    background-color: var(--transp-white-1);
+    backdrop-filter: blur(1.2em);
+    border: 2px solid var(--transp-white-2);
+    border-radius: 50%;
+  }
+  .shape-1 {
+    height: 13em;
+    width: 13em;
+    right: -6.5em;
+    top: 1.8em;
+  }
