@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', () => {
+
 // Get the HTML elements by their ID
 let result = document.getElementById("result");
 let searchBtn = document.getElementById("search-btn");
@@ -51,5 +53,7 @@ let getWeather = () => {
       });
   }
 };
+// Add event listeners to the search button and window
 searchBtn.addEventListener("click", getWeather);
 window.addEventListener("load", getWeather);
+});
